@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wojciech Derdak - Administrator IT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <style>
+    .custom-logo-font {
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 0.05em;
+    }
+    .orange {
+      color: #f97316;
+    }
+    .orange-bg {
+      background-color: #f97316;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans scroll-smooth">
+  <!-- Header -->
+  <header class="shadow-sm bg-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div class="flex items-center gap-2">
+        <h1 class="text-xl font-semibold custom-logo-font flex items-center">
+          <img src="WD1.png" alt="WD logo" class="h-10 w-auto relative top-1">
+          Wojciech <span class="text-black ml-1">Derdak</span>
+        </h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="#" id="scrollTop" class="hover:text-orange-500 transition-colors">O mnie</a>
+        <a href="#skills" class="hover:text-orange-500 transition-colors">Systemy i rozwiązania</a>
+        <a href="#projects" class="hover:text-orange-500 transition-colors">Projekty</a>
+        <a href="#contact" class="hover:text-orange-500 transition-colors">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="about" class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 items-center gap-12" data-aos="fade-up">
+    <div>
+      <h2 class="text-4xl font-bold mb-2">Wojciech Derdak</h2>
+      <h3 class="text-orange-500 text-2xl font-semibold mb-6">Administrator IT</h3>
+      <p class="text-lg text-gray-700 mb-6">Cześć! Jestem administratorem IT z pasją do nowych technologii i tworzenia projektów w homelabie. Chętnie uczę się nowych rzeczy oraz dzielę zdobytą wiedzą z innymi :)</p>
+      <a href="#projects" class="inline-block bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded">Zobacz projekty</a>
+    </div>
+    <div class="flex justify-center">
+      <img src="ja.png" alt="Wojciech Derdak" class="w-80 h-80 object-cover rounded-xl shadow-xl ml-16" data-aos="zoom-in">
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-gray-50 py-16" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold mb-12">Systemy i rozwiązania z którymi pracowałem</h3>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div>
+          <div class="text-5xl mb-4">🪟</div>
+          <h4 class="font-bold text-lg">Windows Server</h4>
+          <p class="text-gray-600">Konfiguracja, administracja, utrzymanie.</p>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">🐧</div>
+          <h4 class="font-bold text-lg">Linux</h4>
+          <p class="text-gray-600">Konfiguracja, administracja, utrzymanie.</p>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">🖥️</div>
+          <h4 class="font-bold text-lg">VMware/Proxmox</h4>
+          <p class="text-gray-600">Zarządzanie środowiskami wirtualnymi.</p>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">⚙️</div>
+          <h4 class="font-bold text-lg">PowerShell, Bash, Python</h4>
+          <p class="text-gray-600">Automatyzacja.</p>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">🔒</div>
+          <h4 class="font-bold text-lg">Graylog, OpenVAS, ESET, DLP</h4>
+          <p class="text-gray-600">Nadzór nad bezpieczeństwem infrastruktury.</p>
+          <div class="mt-4">
+            <a href="umiejetnosci.html" class="inline-block text-sm bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded transition">
+              Więcej
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">📈</div>
+          <h4 class="font-bold text-lg">Zabbix, Nagios, Grafana</h4>
+          <p class="text-gray-600">Monitorowanie środowisk IT i serwerów.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-16" data-aos="fade-up">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-semibold mb-12">Projekty</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- Projekt 1 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Domowy serwer</h4>
+          <p class="text-gray-600 mb-6">Serwer do testów i przechowywania plików. Projekt odzwierciedla środowisko korporacyjne, co pozwala na symulację różnych scenariuszy np. awarii. Postawiony na Proxmox.</p>
+        </div>
+        <a href="projekt-serwer.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 2 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Strona osobista</h4>
+          <p class="text-gray-600 mb-6">Projekt własnej strony portfolio i dokumentacji projektów komercyjnych oraz homelabowych. Hostowana przez GitHub Pages.</p>
+        </div>
+        <a href="projekt-strona.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 3 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Konfiguracja serwera VPN</h4>
+          <p class="text-gray-600 mb-6">Projekt serwera VPN WireGuard umożliwiającego bezpieczny zdalny dostęp z komputera lub urządzeń mobilnych do prywatnej sieci z dowolnego miejsca (+WoL).</p>
+        </div>
+        <a href="projekt-vpn.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 4 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Monitoring bazy danych</h4>
+          <p class="text-gray-600 mb-6">Integracja bazy danych z Zabbixem przez ODBC w celu monitorowania zmian wartości w wybranych tabelach i generowania alertów w czasie rzeczywistym.</p>
+        </div>
+        <a href="projekt-sql.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 5 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Serwer NAS</h4>
+          <p class="text-gray-600 mb-6">Projekt wdrożenia i konfiguracji serwera Synology do backupów, przechowywania danych oraz uruchamiania kontenerów Docker.</p>
+        </div>
+        <a href="projekt-nas.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 6 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Integracja VMware ESXi z Zabbix</h4>
+          <p class="text-gray-600 mb-6">Integracja VMware ESXi z Zabbix przez vSphere API do monitorowania hostów, maszyn wirtualnych i datastore.</p>
+        </div>
+        <a href="projekt-esxi.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 7 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Automatyzacja aktualizacji aplikacji</h4>
+          <p class="text-gray-600 mb-6">Automatyzacja podmiany aplikacji na serwerach za pomocą skryptów BAT, PsExec i Harmonogramu zadań, dostępna z poziomu dedykowanego dla tego celu konta technicznego.</p>
+        </div>
+        <a href="projekt-aktualizacja.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 8 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Zdalny dostęp</h4>
+          <p class="text-gray-600 mb-6">Kompleksowe wdrożenie narzędzia do zdalnego wsparcia – od testów po masową instalację na komputerach firmowych.</p>
+        </div>
+        <a href="projekt-zdalny.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 9 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">DNS z Pi-hole</h4>
+          <p class="text-gray-600 mb-6">Wdrożenie Pi-hole jako lokalnego serwera DNS blokującego reklamy i złośliwe domeny w całej sieci.</p>
+        </div>
+        <a href="projekt-pihole.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+      <!-- Projekt 10 -->
+      <div class="p-6 border rounded-lg shadow-sm flex flex-col justify-between items-center">
+        <div>
+          <h4 class="text-xl font-bold mb-2">Synchronizacja danych z Syncthing</h4>
+          <p class="text-gray-600 mb-6">Szyfrowana synchronizacja plików między komputerami i telefonami bez użycia chmury publicznej.</p>
+        </div>
+        <a href="projekt-syncthing.html" class="text-orange-500 hover:underline transition">Szczegóły</a>
+      </div>
+
+    </div> 
+
+<!-- więcej projektów -->
+<div class="mt-10">
+  <a href="wiecej-projektow.html" class="inline-block text-base bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded transition">
+    Więcej projektów
+  </a>
+</div>
+
+</div> 
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-100 py-16" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold mb-6">Kontakt</h3>
+      <p class="text-lg text-gray-700 mb-2">Email: <a href="mailto:wojciech.derdak1@gmail.com" class="text-orange-500 hover:underline">wojciech.derdak1@gmail.com</a></p>
+      <p class="text-lg text-gray-700 mb-2">GitHub: <a href="https://github.com/iamsnorky" class="text-orange-500 hover:underline" target="_blank">@iamsnorky</a></p>
+      <p class="text-lg text-gray-700">LinkedIn: <a href="https://pl.linkedin.com/in/wojciech-derdak-8325ab251" class="text-orange-500 hover:underline" target="_blank" rel="noopener noreferrer">linkedin.com/in/wojciechderdak</a>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 text-sm text-gray-500">
+    &copy; 2025 Wojciech Derdak. Wszelkie prawa zastrzeżone.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();
+document.getElementById('scrollTop').addEventListener('click', function(e) {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+</script>
+</body>
+</html>
