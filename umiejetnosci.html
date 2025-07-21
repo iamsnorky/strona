@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wojciech Derdak - Administrator IT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <style>
+    .custom-logo-font {
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 0.05em;
+    }
+    .orange {
+      color: #f97316;
+    }
+    .orange-bg {
+      background-color: #f97316;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans scroll-smooth">
+  <!-- Header -->
+  <header class="shadow-sm bg-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div class="flex items-center gap-2">
+        <h1 class="text-xl font-semibold custom-logo-font flex items-center">
+          <img src="WD1.png" alt="WD logo" class="h-10 w-auto relative top-1">
+          Wojciech <span class="text-black ml-1">Derdak</span>
+        </h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="index.html#" class="hover:text-orange-500 transition-colors">O mnie</a>
+        <a href="index.html#skills" class="hover:text-orange-500 transition-colors">Systemy i rozwiązania</a>
+        <a href="index.html#projects" class="hover:text-orange-500 transition-colors">Projekty</a>
+        <a href="index.html#contact" class="hover:text-orange-500 transition-colors">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-16">
+  <h2 class="text-4xl font-bold mb-10 text-center text-orange-500">Systemy i rozwiązania</h2>
+
+    <!-- animation -->
+    <div class="space-y-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">Windows Server 🪟</h3>
+        <p class="text-gray-700">Wdrażanie i administracja serwerów Windows (fizycznych oraz wirtualnych) – od instalacji systemu i konfiguracji kontrolera domeny, po zarządzanie Active Directory, GPO, DHCP, DNS, IIS. Konfiguracja udziałów SMB, uprawnień NTFS. Doświadczenie w utrzymaniu i zarządzaniu środowiskiem serwerowym.</p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">Linux 🐧</h3>
+        <p class="text-gray-700">Praca z dystrybucjami Ubuntu oraz Debian. Realizacja zadań związanych z instalacją systemu, wdrażaniem rozwiązań open source, diagnozowaniem i usuwaniem błędów.</p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">macOS 🍎</h3>
+        <p class="text-gray-700">Administracja urządzeniami opartymi o system macOS – konfiguracja, zarządzanie, wsparcie techniczne użytkowników, integracja z firmową infrastrukturą.</p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">Skrypty ⚙️</h3>
+        <p class="text-gray-700">Automatyzacja codziennych zadań administracyjnych z użyciem skryptów.</p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">Nadzór nad bezpieczeństwem IT 🔒</h3>
+        <p class="text-gray-700">Monitoring i zabezpieczanie infrastruktury IT z użyciem Graylog, Nagios, OpenVAS, ESET oraz Trellix DLP. Konfiguracja zbierania logów np. z kontrolera domeny i serwerów plików w celu śledzenia operacji na danych i zdarzeń logowania. Tworzenie reguł alertów informujących o incydentach bezpieczeństwa. Skanowanie sieci z użyciem OpenVAS, analiza podatności i ich usuwanie. Zarządzanie konsolą ESET Protect/Inspect – tworzenie polityk, wyjątków i obsługa incydentów. Administracja systemem Trellix DLP. Regularna aktualizacja wszystkich środowisk.</p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">Wirtualizacja – VMware/Proxmox 🖥️</h3>
+        <p class="text-gray-700">Administracja środowiskami wirtualnymi opartymi o VMware i Proxmox. Tworzenie i konfiguracja maszyn wirtualnych, zarządzanie zasobami, kopiami zapasowymi i siecią wirtualną. Monitorowanie wydajności hostów, migracje maszyn, integracja z infrastrukturą.</p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">Monitoring – Zabbix/Grafana 📈</h3>
+        <p class="text-gray-700">Kompleksowa konfiguracja Zabbixa – instalacja, dodawanie hostów, tworzenie elementów monitorujących, reguł triggerów, szablonów i powiadomień. Monitoring serwerów, usług, baz danych i zasobów. Instalacja i integracja Grafany, tworzenie dashboardów.</p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h3 class="text-xl font-semibold mb-2">MDM – FAMOC i Samsung Knox 📱</h3>
+        <p class="text-gray-700">Zarządzanie systemami MDM FAMOC i Samsung Knox dla ponad tysiąca urządzeń mobilnych (Android/iOS). Aktualizacja oprogramowania, wdrażanie aplikacji, konfiguracja polityk bezpieczeństwa zgodnych z wymaganiami organizacji.</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-12">
+      <a href="index.html#" class="inline-block bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded">Powrót na stronę główną</a>
+    </div>
+  </main>
+
+  <footer class="text-center py-6 text-sm text-gray-500">
+    &copy; 2025 Wojciech Derdak. Wszelkie prawa zastrzeżone.
+  </footer>
+
+  <!-- Smooth scroll -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+
+  <!--animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
